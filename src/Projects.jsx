@@ -6,10 +6,10 @@ import ProjectCard from "./ProjectCard";
 import WelcomeToNash from "./images/WelcomeToNash.png";
 import Nutshell from "./images/Nushell.jpg";
 import Waiterly from "./images/Waiterly.png";
-
+import { Element } from "react-scroll";
 export default function Projects() {
   return (
-    <div class="Projects-background">
+    <Element name="projects" class="Projects-background">
       <div class="Projects-overlay">
         <div class="Projects-content-wrapper">
           <div class="Projects-content">
@@ -59,6 +59,6 @@ export default function Projects() {
           </div>
         </div>
       </div>
-    </div>
+    </Element>
   );
 }

@@ -1,9 +1,10 @@
 import React from "react";
 import "./Contact.css";
 import resume from "./images/JakePrestonResume.pdf";
+import { Element } from "react-scroll";
 export default function Contact() {
   return (
-    <div class="Contact-background">
+    <Element name="contact" class="Contact-background">
       <div class="Contact-overlay">
         <div class="Contact-content">
           <svg
@@ -83,6 +84,6 @@ export default function Contact() {
           </svg>
         </div>
       </div>
-    </div>
+    </Element>
   );
 }
