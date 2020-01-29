@@ -16,10 +16,10 @@ import php from "./images/php.png";
 import react from "./images/react.png";
 import ruby from "./images/ruby.png";
 import wordpress from "./images/wordpress.png";
-
+import {Element} from "react-scroll"
 export default function About() {
   return (
-    <div id="about" class="About-background">
+    <Element name="about" class="About-background">
       <div class="About-overlay">
         <div class="About-content-wrapper">
           <div class="About-content">
@@ -54,6 +54,6 @@ export default function About() {
           </div>
         </div>
       </div>
-    </div>
+    </Element>
   );
 }
