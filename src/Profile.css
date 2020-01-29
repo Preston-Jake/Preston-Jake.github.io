@@ -101,8 +101,18 @@
   }
 }
 @media only screen and (min-width: 1024px) {
+  .Profile-heading{
+    margin-top: 40px;
+  }
+
+  .Profile-heading p{
+    margin-top: 60px;
+    font-size: 24px;
+  }
+
   .Profile-image {
     height: 90vh;
     width: auto;
   }
+
 }

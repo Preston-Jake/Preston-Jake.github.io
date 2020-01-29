@@ -22,6 +22,7 @@
   margin: 8px 0px;
 }
 
+
 @media only screen and (min-width: 768px){
   .Contact-content{
     flex-direction: row;

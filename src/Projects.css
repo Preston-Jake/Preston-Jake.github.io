@@ -53,9 +53,7 @@
 
 .Projects-content p {
   color: #fff;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   line-height: 20px;
   letter-spacing: 0.12em;
