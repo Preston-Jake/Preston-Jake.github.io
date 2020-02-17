@@ -17,57 +17,37 @@ import react from "./images/react.png";
 import ruby from "./images/ruby.png";
 import wordpress from "./images/wordpress.png";
 import { Element } from "react-scroll";
-import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
 export default function About() {
   return (
-    <Element name="about" class="About-background">
-      <Fade bottom>
-        <div class="About-overlay">
-          <div class="About-content-wrapper">
-            <div class="About-content">
-              <h2>The Man Behind the Screen</h2>
-              <p>
-                From engineering to full-stack software development, I have
-                carried a passion for technology throughout my life. With my
-                brother’s encouragement and example as a Senior Developer, I
-                found a way to combine creativity with logic; and decided to
-                dive into the industry myself. From an industry with endless
-                learning opportunities, I hope to contribute to the innovative
-                world of development.
-              </p>
-            </div>
-
-            <div class="About-icons">
-              <img
-                class="About-icon"
-                src={browerify}
-                alt=""
-                srcset={browerify}
-              />
-              <img class="About-icon" src={cSharp} alt="" srcset={cSharp} />
-              <img class="About-icon" src={css} alt="" srcset={css} />
-              <img class="About-icon" src={docker} alt="" srcset={docker} />
-              <img class="About-icon" src={firebase} alt="" srcset={firebase} />
-              <img class="About-icon" src={git} alt="" srcset={git} />
-              <img class="About-icon" src={github} alt="" srcset={github} />
-              <img class="About-icon" src={grunt} alt="" srcset={grunt} />
-              <img class="About-icon" src={html} alt="" srcset={html} />
-              <img class="About-icon" src={js} alt="" srcset={js} />
-              <img class="About-icon" src={jsx} alt="" srcset={jsx} />
-              <img class="About-icon" src={nodejs} alt="" srcset={nodejs} />
-              <img class="About-icon" src={php} alt="" srcset={php} />
-              <img class="About-icon" src={react} alt="" srcset={react} />
-              <img class="About-icon" src={ruby} alt="" srcset={ruby} />
-              <img
-                class="About-icon"
-                src={wordpress}
-                alt=""
-                srcset={wordpress}
-              />
-            </div>
-          </div>
-        </div>
-      </Fade>
+    <Element name="about" class="About-wrapper">
+      <Slide bottom>
+        <h3>The Man Behind the Screen</h3>
+        <p>
+          From engineering to full-stack software development, I have carried a
+          passion for technology throughout my life. With my brother’s
+          encouragement and example as a Senior Developer, I found a way to
+          combine creativity with logic; and decided to dive into the industry
+          myself. From an industry with endless learning opportunities, I hope
+          to contribute to the innovative world of development.
+        </p>
+        </Slide>
+        <img class="About-icon" src={browerify} alt="" srcset={browerify} />
+        <img class="About-icon" src={cSharp} alt="" srcset={cSharp} />
+        <img class="About-icon" src={css} alt="" srcset={css} />
+        <img class="About-icon" src={docker} alt="" srcset={docker} />
+        <img class="About-icon" src={firebase} alt="" srcset={firebase} />
+        <img class="About-icon" src={git} alt="" srcset={git} />
+        <img class="About-icon" src={github} alt="" srcset={github} />
+        <img class="About-icon" src={grunt} alt="" srcset={grunt} />
+        <img class="About-icon" src={html} alt="" srcset={html} />
+        <img class="About-icon" src={js} alt="" srcset={js} />
+        <img class="About-icon" src={jsx} alt="" srcset={jsx} />
+        <img class="About-icon" src={nodejs} alt="" srcset={nodejs} />
+        <img class="About-icon" src={php} alt="" srcset={php} />
+        <img class="About-icon" src={react} alt="" srcset={react} />
+        <img class="About-icon" src={ruby} alt="" srcset={ruby} />
+        <img class="About-icon" src={wordpress} alt="" srcset={wordpress} />
     </Element>
   );
 }

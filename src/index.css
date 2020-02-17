@@ -1,23 +1,15 @@
 body {
   margin: 0;
-  font-family: 'Varela Round', sans-serif;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Varela Round", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
-p{
-  font-family: "Open Sans";
-  font-size: 18px;
-  line-height: 24px;
-  letter-spacing: 0.2em;
-  color: #FFFFFF;
-}
-
-h1{
+h1 {
   font-family: "Varela Round";
   font-size: 40px;
   line-height: 60px;
@@ -25,10 +17,26 @@ h1{
   color: #ffffff;
 }
 
-h2{
+h2 {
   font-family: "Varela Round";
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.12em;
+  color: #ffffff;
+}
+
+h3 {
+  font-family: "Varela Round";
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.12em;
+  color: #3FDCFF;
+}
+
+p {
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
   color: #ffffff;
 }
