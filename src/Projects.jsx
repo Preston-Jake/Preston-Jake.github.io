@@ -7,7 +7,7 @@ import WelcomeToNash from "./images/WelcomeToNash.png";
 import Nutshell from "./images/Nushell.jpg";
 import Waiterly from "./images/Waiterly.png";
 import { Element } from "react-scroll";
-import Slide from "react-reveal/Slide";
+import Fade from "react-reveal/Fade";
 
 export default function Projects() {
   return (
@@ -16,7 +16,7 @@ export default function Projects() {
         <div class="Projects-content-wrapper">
           <div class="Projects-content">
             <h2>Projects</h2>
-            <Slide bottom>
+            <Fade bottom>
               <div class="Projects-shire">
                 <h3>UrbanShire</h3>
                 <div class="Projects-shire-images">
@@ -43,28 +43,28 @@ export default function Projects() {
                   </p>
                 </div>
               </div>
-            </Slide>
-            <Slide bottom>
+            </Fade>
+            <Fade bottom>
               <ProjectCard
                 projectImage={WelcomeToNash}
                 projectName="Welcome to Nashville"
                 projectDiscription="Welcome to Nashville was one of our first front end group projects introducing APIs. The purpose was to create an itinerary planner of parks, restaurants, meetups, and concerts for users in the Greater Nashville Area."
               />
-            </Slide>
-            <Slide bottom>
+            </Fade>
+            <Fade bottom>
               <ProjectCard
                 projectImage={Nutshell}
                 projectName="Nutshell"
                 projectDiscription="Nutshell was our final front end group project where we created a social media application utilizing HTML, CSS, JavaScript, React, Firebase, and Reactstrap. Through paired programing, our responsibilities included full C.R.U.D components for a newsfeed and message board."
               />
-            </Slide>
-            <Slide bottom>
+            </Fade>
+            <Fade bottom>
               <ProjectCard
                 projectImage={Waiterly}
                 projectName="Waiterly"
                 projectDiscription="Waiterly was Final Capstone for back end development at Nashville Software School. An MVC ASP.NET Core web application utilizing Entity and Identity Framework - Bootstrap and CSS for styling. The purpose of the application was to provide a resource for restaurants to manage employee operations. Additionally, allowing user access and functionality for appropriate roles."
               />
-            </Slide>
+            </Fade>
           </div>
         </div>
       </div>

@@ -17,11 +17,11 @@ import react from "./images/react.png";
 import ruby from "./images/ruby.png";
 import wordpress from "./images/wordpress.png";
 import { Element } from "react-scroll";
-import Slide from "react-reveal/Slide";
+import Fade from "react-reveal/Fade";
 export default function About() {
   return (
     <Element name="about" class="About-wrapper">
-      <Slide bottom>
+      <Fade bottom>
         <h3>The Man Behind the Screen</h3>
         <p>
           From engineering to full-stack software development, I have carried a
@@ -31,7 +31,7 @@ export default function About() {
           myself. From an industry with endless learning opportunities, I hope
           to contribute to the innovative world of development.
         </p>
-        </Slide>
+      <div class="About-icons">
         <img class="About-icon" src={browerify} alt="" srcset={browerify} />
         <img class="About-icon" src={cSharp} alt="" srcset={cSharp} />
         <img class="About-icon" src={css} alt="" srcset={css} />
@@ -48,6 +48,8 @@ export default function About() {
         <img class="About-icon" src={react} alt="" srcset={react} />
         <img class="About-icon" src={ruby} alt="" srcset={ruby} />
         <img class="About-icon" src={wordpress} alt="" srcset={wordpress} />
+      </div>
+      </Fade>
     </Element>
   );
 }

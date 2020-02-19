@@ -10,12 +10,55 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 16px;
+  overflow: hidden;
 }
+
 .About-wrapper h3{
   margin: 0px;
+}
+
+.About-wrapper p{
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .About-icon {
   height: 40px;
   width: 40px;
+}
+
+@media only screen and (min-width: 375px){
+  .About-wrapper p{
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .About-icon {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .About-wrapper{
+    padding: 10%;
+  }
+  .About-wrapper h3{
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .About-wrapper p{
+    font-size: 24px;
+  line-height: 32px;
+  }
+  .About-icon{
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .About-wrapper{
+    padding: 20%;
+  }
 }
