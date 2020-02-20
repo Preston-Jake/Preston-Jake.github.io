@@ -62,7 +62,7 @@ export default function Projects() {
               <ProjectCard
                 projectImage={Waiterly}
                 projectName="Waiterly"
-                projectDiscription="Waiterly was Final Capstone for back end development at Nashville Software School. An MVC ASP.NET Core web application utilizing Entity and Identity Framework - Bootstrap and CSS for styling. The purpose of the application was to provide a resource for restaurants to manage employee operations. Additionally, allowing user access and functionality for appropriate roles."
+                projectDiscription="Waiterly was my Final Capstone for back end development at Nashville Software School. An MVC ASP.NET Core web application utilizing Entity and Identity Framework - Bootstrap and CSS for styling. The purpose of the application was to provide a resource for restaurants to manage employee operations. Additionally, allowing user access and functionality for appropriate roles."
               />
             </Fade>
           </div>

@@ -21,7 +21,7 @@ import Fade from "react-reveal/Fade";
 export default function About() {
   return (
     <Element name="about" class="About-wrapper">
-      <Fade bottom>
+      <Fade left>
         <h3>The Man Behind the Screen</h3>
         <p>
           From engineering to full-stack software development, I have carried a
@@ -31,6 +31,7 @@ export default function About() {
           myself. From an industry with endless learning opportunities, I hope
           to contribute to the innovative world of development.
         </p>
+        </Fade>
       <div class="About-icons">
         <img class="About-icon" src={browerify} alt="" srcset={browerify} />
         <img class="About-icon" src={cSharp} alt="" srcset={cSharp} />
@@ -49,7 +50,6 @@ export default function About() {
         <img class="About-icon" src={ruby} alt="" srcset={ruby} />
         <img class="About-icon" src={wordpress} alt="" srcset={wordpress} />
       </div>
-      </Fade>
     </Element>
   );
 }
