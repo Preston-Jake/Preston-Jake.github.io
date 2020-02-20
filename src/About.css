@@ -1,84 +1,80 @@
-.About-background {
-  background-image: url(./images/kevin-horvat-Pyjp2zmxuLk-unsplash.jpg);
+.About-wrapper {
+  background-image: linear-gradient(
+      180deg,
+      #000000 0%,
+      #000000 0.01%,
+      rgba(0, 0, 0, 0.17) 48.96%,
+      #000000 98.44%
+    ),
+    url(./images/kevin-horvat-Pyjp2zmxuLk-unsplash.jpg);
   height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  display: grid;
+  grid-template-columns: 8px 1fr 8px;
+  grid-template-rows: 8px auto 2fr 3fr 60px;
+  grid-template-areas:
+    ". . ."
+    ". title ."
+    ". content ."
+    ". icons ."
+    " . . .";
 }
 
-.About-overlay {
-  height: 100vh;
-  background: linear-gradient(
-    180deg,
-    #000000 0%,
-    #000000 0.01%,
-    rgba(0, 0, 0, 0.17) 48.96%,
-    #000000 98.44%
-  );
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.About-content-wrapper {
-  --contentWidth: 400px;
-  padding: 2rem 1rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.About-content {
-  max-width: var(--contentWidth);
-  margin: 0 auto;
-}
-
-.About-content h2 {
-  color: #3fdcff;
-  font-family: Varela Round;
-  font-size: 18px;
-  line-height: 24px;
+.About-wrapper h3 {
   text-align: center;
-  letter-spacing: 0.08em;
+  margin: 0px;
+  grid-area: title;
 }
-
-.About-content p {
-  color: #ffffff;
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
+.About-wrapper p {
   font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.08em;
-  margin-top: 24px;
+  line-height: 18px;
+  grid-area: content;
 }
-
 .About-icons {
-  align-self: center;
-  max-width: 400px;
+  grid-area: icons;
 }
 
 .About-icon {
   height: 40px;
+  width: 40px;
+}
+
+@media only screen and (min-width: 375px) {
+  
+  .About-wrapper p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .About-icon {
+    height: 50px;
+    width: 50px;
+  }
 }
 
 @media only screen and (min-width: 768px) {
-  .About-content h2 {
-    font-size: 24px;
+  .About-wrapper{
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-rows: 24px auto 2fr 3fr 60px;
   }
-  .About-content p {
-    color: #ffffff;
-    font-family: Open Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
+  .About-wrapper h3 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .About-wrapper p {
+    font-size: 20px;
     line-height: 24px;
-    letter-spacing: 0.08em;
-    margin-top: 24px;
   }
-
   .About-icon {
     height: 100px;
-    margin: auto;
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .About-wrapper{
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 24px auto 2fr 3fr 60px;
   }
 }

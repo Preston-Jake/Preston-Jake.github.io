@@ -1,118 +1,103 @@
-.Profile-background {
-  background-image: url(./images/nashville.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
+.Profile-wrapper {
+  background: linear-gradient(
+      180deg,
+      #00d0ff 0%,
+      rgba(0, 208, 255, 0.28) 19.51%,
+      rgba(0, 0, 0, 0) 45.05%,
+      #000000 89.82%
+    ),
+    url(./images/nashville.jpg) no-repeat center;
   background-size: cover;
   overflow: hidden;
   height: 100vh;
-  max-width: 100%;
-}
-
-.Profile-overlay {
-  height: 100vh;
-  background: linear-gradient(
-    180deg,
-    rgba(0, 208, 255, 0.28) 0%,
-    rgba(0, 208, 255, 0.28) 22.33%,
-    rgba(0, 0, 0, 0.54) 54.69%,
-    #000000 100%
-  );
-}
-
-.Profile-content {
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 100vh;
-  margin-bottom: auto;
-}
-
-.Profile-heading h1 {
-  font-family: Varela Round;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 40px;
-  letter-spacing: 0.08em;
-	margin: 16px 8px 0px 8px;
-	padding-top: 8px;
   width: 100%;
+}
+.Profile-wrapper h1 {
+  margin: 24px 0px 0px;
+  align-items: center;
   text-align: center;
 }
-
-.Profile-heading h2 {
-  font-family: Varela Round;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  margin: 0;
-  letter-spacing: 0.12em;
-  width: 100%;
+.Profile-wrapper h2 {
+  margin: 0px 0px 8px;
+  align-items: center;
   text-align: center;
 }
-
-.Profile-heading p {
-  border-radius: 45px;
-  background:  rgba(0, 71, 87, 0.5);;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  font-family: Open Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  letter-spacing: 0.1em;
-  padding: 16px 24px;
-  margin: 8px 24px auto;
+.Profile-wrapper p {
+  align-items: center;
+  text-align: center;
+  margin: 0px 40px auto;
 }
-
-.Profile-image-wrapper {
-  display: flex;
-	align-items: flex-end;
-	height: 100%;
-}
-
 .Profile-image {
   height: 60vh;
   transform: scaleX(-1);
+  position: absolute;
+  bottom: 0;
 }
 
-@media only screen and (min-width: 768px) {
-	.Profile-content{
-		flex-direction: row;
-	}
-
-	.Profile-heading{
-		position: absolute;
-		max-width: 400px;
-	}
-	
-	.Profile-heading p{
-		font-size: 18px;
-	}
-
-	.Profile-image-wrapper{
-		width: 100%;
-		justify-content: flex-end;
-	}
-
-  .Profile-image {
-    transform: scaleX(1);
-    width: 50vh;
-		height: auto;
+@media only screen and (min-width: 375px) {
+  .Profile-wrapper h2 {
+    margin: 0px 0px 40px;
   }
 }
-@media only screen and (min-width: 1024px) {
-  .Profile-heading{
-    margin-top: 40px;
-  }
 
-  .Profile-heading p{
-    margin-top: 60px;
+@media only screen and (min-width: 720px) {
+  .Profile-wrapper h1 {
+    font-size: 64px;
+    line-height: 72px;
+  }
+  .Profile-wrapper h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+  .Profile-wrapper p {
     font-size: 24px;
+    line-height: 32px;
   }
+}
 
+@media only screen and (min-width: 1024px) {
+  .Profile-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 2fr;
+    grid-template-rows: 2fr 2fr 1fr 2fr 2fr;
+    grid-template-areas:
+      ". . . ."
+      "title title title title"
+      ". subtitle subtitle ."
+      ". content content ."
+      ". . . .";
+  }
+  .Profile-wrapper h1 {
+    grid-area: title;
+    font-size: 128px;
+    line-height: 160px;
+    margin: 0px 8px;
+  }
+  .Profile-wrapper h2 {
+    grid-area: subtitle;
+    font-size: 48px;
+    line-height: 56px;
+  }
+  .Profile-wrapper p {
+    grid-area: content;
+    font-size: 36px;
+    line-height: 48px;
+  }
   .Profile-image {
-    height: 90vh;
-    width: auto;
+    height: auto;
+    width: 35%;
+    max-width: 600px;
+    right: 0;
+    transform: scaleX(1);
   }
-
+}
+@media only screen and (min-width: 1225px) {
+  .Profile-wrapper {
+    grid-template-areas:
+      ". . . ."
+      "title title title ."
+      "subtitle subtitle subtitle ."
+      "content content content ."
+      ". . . .";
+  }
 }
