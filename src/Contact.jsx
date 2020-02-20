@@ -12,20 +12,20 @@ export default function Contact() {
   return (
     <Element name="contact" class="Contact-background">
       <h3>Hire Me</h3>
-      <a href="http://" target="_blank" rel="noopener noreferrer">
-        <img class="Contact-img resume" src={doc} alt="" srcset={doc} />
+      <a href={resume}>
+        <img class="Contact-img" src={doc} alt="" srcset={doc} />
       </a>
-      <a href="http://">
-        <img class="Contact-img resume" src={github} alt="" srcset={github} />
+      <a href="https://github.com/Preston-Jake">
+        <img class="Contact-img" src={github} alt="" srcset={github} />
       </a>
       <h3 class="subtitle">Contact</h3>
       <a href="tel:+16155120998">
         <img class="Contact-img" src={phone} alt="" srcset={phone} />
       </a>
-      <a href="mailto:">
+      <a href="mailto:prestonjak@outlook.com">
         <img class="Contact-img" src={mail} alt="" srcset={mail} />
       </a>
-      <a href="http://">
+      <a href="https://www.linkedin.com/in/preston-jake/">
         <img class="Contact-img" src={linkedin} alt="" srcset={linkedin} />
       </a>
     </Element>

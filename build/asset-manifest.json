@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.63123a05.chunk.css",
-    "main.js": "/static/js/main.d232ac37.chunk.js",
-    "main.js.map": "/static/js/main.d232ac37.chunk.js.map",
+    "main.css": "/static/css/main.f14274bf.chunk.css",
+    "main.js": "/static/js/main.9d90d6cf.chunk.js",
+    "main.js.map": "/static/js/main.9d90d6cf.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.170f8412.js",
     "runtime-main.js.map": "/static/js/runtime-main.170f8412.js.map",
-    "static/js/2.aab14d6b.chunk.js": "/static/js/2.aab14d6b.chunk.js",
-    "static/js/2.aab14d6b.chunk.js.map": "/static/js/2.aab14d6b.chunk.js.map",
+    "static/js/2.a57a9a47.chunk.js": "/static/js/2.a57a9a47.chunk.js",
+    "static/js/2.a57a9a47.chunk.js.map": "/static/js/2.a57a9a47.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f048533e703d84dc3d795160301719b1.js": "/precache-manifest.f048533e703d84dc3d795160301719b1.js",
+    "precache-manifest.19de65d5f275025032205bea74cc9427.js": "/precache-manifest.19de65d5f275025032205bea74cc9427.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.63123a05.chunk.css.map": "/static/css/main.63123a05.chunk.css.map",
-    "static/js/2.aab14d6b.chunk.js.LICENSE": "/static/js/2.aab14d6b.chunk.js.LICENSE",
+    "static/css/main.f14274bf.chunk.css.map": "/static/css/main.f14274bf.chunk.css.map",
+    "static/js/2.a57a9a47.chunk.js.LICENSE": "/static/js/2.a57a9a47.chunk.js.LICENSE",
     "static/media/JakePrestonFun.png": "/static/media/JakePrestonFun.a11587e1.png",
     "static/media/JakePrestonResume.pdf": "/static/media/JakePrestonResume.58069381.pdf",
     "static/media/Nushell.jpg": "/static/media/Nushell.dc128602.jpg",
@@ -19,9 +19,9 @@
     "static/media/Shire2.png": "/static/media/Shire2.c8fbfa2f.png",
     "static/media/Waiterly.png": "/static/media/Waiterly.8a1a791f.png",
     "static/media/WelcomeToNash.png": "/static/media/WelcomeToNash.56737599.png",
-    "static/media/Contact.css": "/static/media/brook-anderson-gTQbZXL417Q-unsplash.feb8ca25.jpg",
     "static/media/browserify.png": "/static/media/browserify.c5ec29ad.png",
     "static/media/c.png": "/static/media/c.f00f4fb9.png",
+    "static/media/Contact.css": "/static/media/computer.94f92ebb.jpg",
     "static/media/css.png": "/static/media/css.7ffec13f.png",
     "static/media/docker.png": "/static/media/docker.cac4d8e3.png",
     "static/media/firebase.png": "/static/media/firebase.970f1206.png",
@@ -42,8 +42,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.170f8412.js",
-    "static/js/2.aab14d6b.chunk.js",
-    "static/css/main.63123a05.chunk.css",
-    "static/js/main.d232ac37.chunk.js"
+    "static/js/2.a57a9a47.chunk.js",
+    "static/css/main.f14274bf.chunk.css",
+    "static/js/main.9d90d6cf.chunk.js"
   ]
 }
