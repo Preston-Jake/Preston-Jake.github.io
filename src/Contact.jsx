@@ -8,6 +8,7 @@ import linkedin from "./images/linkedin.png";
 import doc from "./images/doc.png";
 import github from "./images/github_white.png";
 
+
 export default function Contact() {
   return (
     <Element name="contact" class="Contact-background">
