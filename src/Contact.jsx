@@ -10,6 +10,7 @@ import github from "./images/github_white.png";
 
 
 export default function Contact() {
+  
   return (
     <Element name="contact" class="Contact-background">
       <h3>Hire Me</h3>
